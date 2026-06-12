@@ -23,3 +23,11 @@ var a = 10;
 var b = 20;
 console.log(a**b)//exponentiation
 
+//Assingment
+var c = 10;
+console.log(c+=10)
+console.log(c-=10)
+console.log(c*=10)
+console.log(c/=10)
+console.log(c%=10)
+
