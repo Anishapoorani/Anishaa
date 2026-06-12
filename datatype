@@ -1,0 +1,48 @@
+console.log("Welcome to primitive datatypes");
+
+// Numbers
+console.log("DT numbers");
+var age = 25;
+console.log(age);// output: 25
+
+// Strings
+console.log("DT string");
+var name = "John";
+console.log(name);
+
+// Boolean
+console.log("DT boolean");
+var student = true;
+console.log(student);
+
+//Null
+console.log("DT Null");
+var emptyvalue = null;
+console.log(emptyvalue);
+
+//Underfined
+console.log("DT underfined");
+var underfinedvalue;
+console.log(underfinedvalue);
+
+//Symbol
+console.log("DT symbol");
+var symbolvalue = symbol('symbol');
+console.log(symbolvalue);
+
+console.log("Welcome to non-primitive datatype");
+
+//object 
+console.log("DT object");
+var person = {
+    name: "John"
+    age: 25
+};
+console.log(person.age);
+
+//Arrays
+console.log("DT arrays");
+var numbers = ["Kiwi","fig","pine","apple","orange"];
+console.log(numbers.length);
+console.log(numbers[4]);
+
