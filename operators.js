@@ -47,3 +47,17 @@ console.log(a>0 && b<0);
 console.log(a>0 || b<0);
 console.log(a>0 || b<0);
 console.log(!(a>0));
+
+//unary
+console.log("unary operators");
+var c = 30;
+console.log(c++); //30 c - 31
+console.log(c--); //31 c - 30
+console.log(--c); // 29 c - 29
+console.log(++c); // 30 c - 30
+
+//Ternary
+console.log("ternary operators");
+var result = (a>b) ? "a is greater" : "b is greater";
+// var variable = (condition) ? true value ; false value;
+console.log(result); // o/p - b is greater   
