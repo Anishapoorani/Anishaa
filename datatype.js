@@ -3,8 +3,7 @@ console.log("Welcome to primitive datatypes");
 // Numbers
 console.log("DT numbers");
 var age = 25;
-console.log(age);// output: 25
-
+console.log(25);
 // Strings
 console.log("DT string");
 var name = "John";
@@ -35,10 +34,10 @@ console.log("Welcome to non-primitive datatype");
 //object 
 console.log("DT object");
 var person = {
-    name: "John"
+    name: "John",
     age: 25
 };
-console.log(person.age);
+console.log(person);
 
 //Arrays
 console.log("DT arrays");
