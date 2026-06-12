@@ -8,4 +8,4 @@ console.log(age)
 
 //variables using const
 const country = "India"
-console.log(country)
+console.log(country)b
