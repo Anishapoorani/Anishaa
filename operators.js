@@ -31,3 +31,11 @@ console.log(c*=10)
 console.log(c/=10)
 console.log(c%=10)
 
+//comparision operators
+console.log("comparision opertoors");
+console.log(a==b);
+console.log(a!=b);
+console.log(a>b);
+console.log(a<b);
+console.log(a>=b);
+console.log(a<=b);
