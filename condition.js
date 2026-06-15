@@ -14,6 +14,7 @@ else {
 }
 console.log("outside if");
 
+
 //switch statement
 var signal = "White"
 
@@ -33,3 +34,5 @@ switch(signal){
         default:
             console.log("invalid signal color");
 }
+
+
