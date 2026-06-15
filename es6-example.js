@@ -33,3 +33,29 @@ console.log("Department:",department);
 const displaystudent = () => {
     console.log('student Name:${name}');
 };
+displaystudent();
+
+//Arrays
+const students = [
+    "Arun",
+    "Priya",
+    "Devadharshini"
+];
+console.log(students);
+
+//spread operator
+const updatedstudents = [
+    ...students,
+    "Rahul"
+];
+
+console.log(updatedstudents);
+
+// // Rest operator
+function maximumMarks(...marks){
+    let max = Math.max(...marks);
+
+    return max;
+}
+
+console.log("Maximum marks:", maximumMarks(80,90,70));
