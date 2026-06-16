@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html 
+<body>
+    
+    <script>
+
+        function getstudent(){
+
+            return new promise(function(resolve){
+
+                setimeout(function(){
+
+                    resolve("Arun");
+                },3000);
+            });
+        }
+
+        async function displaystudent(){
+
+            console.log("Loading Student...");
+
+            let Student = await getstudent;
+            
+            console.log(student);
+        }
+
+        displaystudent();
+
+    </script>
+</body>
+</html>
